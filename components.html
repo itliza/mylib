@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Markup Developer</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       <div class="wrapper">
+  <header>
+    <a href="index.html" class="logo">MYLIB</a>
+    <ul class="nav">
+      <li><a href="elements.html">elements</a></li>
+      <li><a href="components.html">components</a></li>
+      <li><a href="#">layouts</a></li>
+      <li><a href="#">drafts</a></li>
+      <li><a href="#">documentation</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="sidebar">
+      <ul class="sidebar-nav">
+      <li><a href="#">chevron menu</a></li>
+      <li><a href="#">dropdown menu</a></li>
+      <li><a href="#">modal box</a></li>
+      <li><a href="#">allerts</a></li>
+    </ul>
+    </div>
+    <div class="content">
+      <h2 class="components-h">Chevron menu</h2>
+      <div class="block">
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="#FFC806" fill-rule="evenodd" d="M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zm1 0c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12zM9.259 15.433c-.075.338-.113.584-.113.74 0 .445.138.776.413.995.281.212.597.318.947.318.618 0 1.2-.262 1.743-.787.332-.319.81-.938 1.435-1.857l-.422-.271c-.219.362-.472.709-.76 1.04-.287.332-.528.497-.721.497-.075 0-.144-.019-.207-.056-.062-.044-.093-.134-.093-.272 0-.137.056-.438.168-.9.044-.181.129-.506.254-.975l1.49-5.466-.825.16c-.287.056-.778.125-1.472.206-.687.075-1.212.125-1.575.15v.506c.431.019.728.06.89.122.163.063.245.222.245.478 0 .044-.007.09-.02.14-.005.05-.015.1-.027.15l-1.153 4.313c-.088.32-.154.575-.197.77zm4.51-10.903c-.25-.25-.554-.375-.91-.375-.357 0-.663.125-.919.375-.25.25-.375.553-.375.91 0 .356.125.662.375.918.256.25.563.375.919.375.356 0 .66-.125.91-.375.25-.256.374-.562.374-.919 0-.356-.125-.659-.375-.909z" clip-rule="evenodd"/>
+</svg></div>
+        <div class="block-text">
+<pre>Possible to use on gradient background
+Easy to use opacity for items background
+Cross-browser</pre></div>
+      </div>
+
+<nav class="gradient">
+  <ul class="gradient-list">
+    <li class="gradient-item">
+      <a href="#">about</a>
+    </li>
+    <li class="gradient-item">
+      <a href="#">careers</a>
+    </li>
+    <li class="gradient-item">
+      <a href="#">faq</a>
+    </li>
+    <li class="gradient-item">
+      <a href="#">contact</a>
+    </li>
+  </ul>
+</nav>
+       <div class="border html">
+       <div class="white-block">
+        <pre>
+&lth1 class=”h1”&gtHeadline h1&lt/h1&gt
+&lth2 class=”h2”&gtHeadline h2&lt/h2&gt
+&lth3 class=”h3”&gtHeadline h3&lt/h3&gt
+&lth4 class=”h4”&gtHeadline h4&lt/h4&gt
+&lth5 class=”h5”&gtHeadline h5&lt/h5&gt
+&lth6 class=”h6”&gtHeadline h6&lt/h6&gt</pre></div></div>
+        <div class="border css">
+       <div class="white-block">
+        <pre>
+div.menu-body-gradient  {
+    height: 96px;
+    padding: 2px 0;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);
+}
+ul.list-gr {
+    margin:0;
+    padding: 0 60px;
+    text-align: right;
+}
+ul.list-gr li {
+    display: inline-block;
+    position: relative;
+    padding: 30px 25px 29px 25px;
+    margin: 0 20px 0 25px;
+    background-color: #ffffff;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+ul.list-gr li:hover {
+    opacity: 0.7;
+}
+ul.list-gr li::after {
+    position: absolute;
+    top:0;
+    left: 100%;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 48px 0 48px 25px;
+ border-color: transparent transparent transparent #ffffff;
+}
+ul.list-gr li > a {
+    vertical-align: top;
+    text-decoration: none;
+    color: #000000;
+}
+ul.list-gr li > a::after {
+    position: absolute;
+    left: -25px;
+    top: 0px;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 0 25px 48px 0;
+ border-color: transparent #ffffff transparent transparent;
+}
+ul.list-gr li > a::before {
+    position: absolute;
+    left: -25px;
+    top: 48px;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 0 0 48px 25px;
+ border-color: transparent transparent #ffffff transparent;
+}
+</pre></div></div>
+     </div>
+    </div>
+  </main>
+</div> 
+    </body>
+</html>
